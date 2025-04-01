@@ -13,11 +13,11 @@ value_map = {1 : 'Normal weight', 2 : 'Overweight Level I', 3: 'Overweight Level
 with st.sidebar:
     st.header('Data Requirements')
     st.caption('Data Requirements are a prerequesites to let the AI model work properly, without any errors in terms of data types and mispredictions')
-    with st.expander("Data Format"):
-        st.markdown('- utf-8')
-        st.markdown('- seperated by comma')
-        st.markdown('- delimited by \".\"')
-        st.markdown('- first row -- heaer')
+    with st.expander("requirments"):
+        st.markdown('- height in metric foramt')
+        st.markdown('- your age should be between 7 and 110')
+        st.markdown('- your weight is in kilgorams')
+        st.markdown('- how many meals do you eat usually per day?')
     
     st.divider()
     st.write('<p style = "text-align: center"> Devolped by Noor Elden</p>', unsafe_allow_html= True)
